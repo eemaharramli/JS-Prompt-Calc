@@ -1,23 +1,23 @@
-let number1 = +prompt('Input first number')
-let number2 = +prompt('Input second number')
+let firstNumber = +prompt('Input first number')
+let secondNumber = +prompt('Input second number')
 
-function SumOfNumbers(number1, number2) {
-    return number1 + number2
+function SumOfNumbers(firstNumber, secondNumber) {
+    return firstNumber + secondNumber
 }
 
-function DivideOfNumbers(number1, number2){
-    return number1 / number2
+function DivideOfNumbers(firstNumber, secondNumber){
+    return firstNumber / secondNumber
 }
 
-function DifferenceOfNumbers(number1, number2){
-    return number1 - number2
+function DifferenceOfNumbers(firstNumber, secondNumber){
+    return firstNumber - secondNumber
 }
 
-function MultiplyOfNumbers(number1, number2) {
-    return number1 * number2
+function MultiplyOfNumbers(firstNumber, secondNumber) {
+    return firstNumber * secondNumber
 }
 
-if((number1 == parseInt(number1)) && (number2 == parseInt(number2)) ){
+if((firstNumber == parseInt(firstNumber)) && (secondNumber == parseInt(secondNumber)) ){
 	alert(`Sum of input numbers: ${SumOfNumbers(number1, number2)}`)
 	alert(`Difference of input numbers: ${DifferenceOfNumbers(number1, number2)}`)
 	alert(`Multiple of input numbers: ${MultiplyOfNumbers(number1, number2)}`)
